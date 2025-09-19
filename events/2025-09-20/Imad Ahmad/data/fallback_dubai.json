@@ -1,0 +1,12 @@
+{
+  "currency": "AED",
+  "items": [
+    {"day": 1, "activity": "Dubai Mall & Fountain Show", "approx_cost": 0, "source": "https://www.thedubaimall.com"},
+    {"day": 1, "activity": "Burj Khalifa At The Top (124/125)", "approx_cost": 169, "source": "https://www.burjkhalifa.ae"},
+    {"day": 2, "activity": "Old Dubai: Al Fahidi & Creek Abra Ride", "approx_cost": 2, "source": "https://www.visitdubai.com"},
+    {"day": 2, "activity": "Gold & Spice Souk Walk", "approx_cost": 0, "source": "https://www.visitdubai.com"},
+    {"day": 3, "activity": "JBR Beach Walk", "approx_cost": 0, "source": "https://www.jbr.ae"},
+    {"day": 3, "activity": "Desert Safari (Shared)", "approx_cost": 150, "source": "https://www.getyourguide.com"}
+  ],
+  "notes": "Transport & meals not included; prices indicative."
+}
