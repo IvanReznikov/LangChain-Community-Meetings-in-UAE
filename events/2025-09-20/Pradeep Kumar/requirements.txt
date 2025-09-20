@@ -1,0 +1,6 @@
+openai
+python-dotenv
+httpx
+langsmith
+uvicorn
+langserve
