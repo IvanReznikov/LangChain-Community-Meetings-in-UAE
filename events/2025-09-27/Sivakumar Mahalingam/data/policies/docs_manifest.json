@@ -1,0 +1,26 @@
+[
+  {
+    "file": "KYC_Onboarding_SOP.txt",
+    "title": "KYC_Onboarding_SOP",
+    "jurisdiction": "UAE",
+    "effective_from": "2025-06-01",
+    "effective_to": "2026-06-01",
+    "policy_id": "KYC-ONB-001"
+  },
+  {
+    "file": "Fee_Disclosure_Policy.txt",
+    "title": "Fee_Disclosure_Policy",
+    "jurisdiction": "UAE",
+    "effective_from": "2025-01-01",
+    "effective_to": "2026-01-01",
+    "policy_id": "FEE-DSC-007"
+  },
+  {
+    "file": "GDPR_PII_Handling.txt",
+    "title": "GDPR_PII_Handling",
+    "jurisdiction": "EU",
+    "effective_from": "2024-01-01",
+    "effective_to": "2026-01-01",
+    "policy_id": "PII-GDPR-101"
+  }
+]

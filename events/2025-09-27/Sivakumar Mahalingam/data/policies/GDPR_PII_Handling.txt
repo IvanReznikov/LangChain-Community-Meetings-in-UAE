@@ -1,0 +1,2 @@
+Under GDPR, do not expose raw PII (full PAN/SSN/IBAN). Mask PAN as **** **** **** 1234.
+PII must be removed from LLM prompts unless strictly necessary. Log redaction maps separately.
