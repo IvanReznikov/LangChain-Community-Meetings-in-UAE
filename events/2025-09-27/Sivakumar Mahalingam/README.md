@@ -207,7 +207,7 @@ print(evaluate_pii_leak(run))
 ---
 ## 🖥️ Slides
 
-[Link](https://google.com)
+[Link](slides/)
 
 ---
 
