@@ -1,0 +1,14 @@
+{
+  "policy_pack_version": "2025-09-01",
+  "banned_phrases": [
+    "guaranteed approval",
+    "we can waive any regulation",
+    "ignore policy"
+  ],
+  "required_disclaimer": "This response is based on current bank policy and may vary by jurisdiction.",
+  "jurisdiction_prompts": {
+    "UAE": "Follow UAE Central Bank guidance and local KYC rules.",
+    "EU": "Follow EBA and GDPR requirements; never reveal raw PII in outputs.",
+    "US": "Follow FFIEC guidance; avoid sharing full SSN or full PAN."
+  }
+}

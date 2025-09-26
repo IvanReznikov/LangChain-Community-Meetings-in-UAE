@@ -1,0 +1,3 @@
+Customer onboarding requires valid Emirates ID and proof of address.
+Never store raw Emirates ID in model prompts. Mask ID as EID-****1234.
+For mismatched addresses, escalate to Level-2 KYC per SOP KYC-ONB-001 section 4.
