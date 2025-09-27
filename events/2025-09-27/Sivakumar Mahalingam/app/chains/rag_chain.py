@@ -87,14 +87,36 @@ def _prepare_inputs(inputs: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def _llm_invoke(x: Dict[str, Any]) -> Dict[str, Any]:
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.1, openai_api_key=require_openai_key())
+    # Unwrap if the chain passed {"prepared": {...}}
+    prepared = x.get("prepared", x) or {}
+
+    # Backfill missing fields defensively
+    jur = prepared.get("jurisdiction").strip()
+    jd  = prepared.get("jurisdiction_directive") or get_jurisdiction_directive(jur)
+    q   = (prepared.get("question") or "").strip()
+    ctx = prepared.get("context") or "NO_MATCH"
+
+    # Normalize the prepared dict so downstream never KeyErrors
+    prepared.update({
+        "jurisdiction": jur,
+        "jurisdiction_directive": jd,
+        "question": q,
+        "context": ctx,
+    })
+
+    llm = ChatOpenAI(
+        model="gpt-4o-mini",            # or any model you have access to
+        temperature=0.1,
+        openai_api_key=require_openai_key(),
+    )
+
     messages = _prompt().format_messages(
-        jurisdiction_directive=x["jurisdiction_directive"],
-        question=x["question"],
-        context=x["context"],
+        jurisdiction_directive=jd,
+        question=q,
+        context=ctx,
     )
     text = llm.invoke(messages).content
-    return {"llm_text": text, "prepared": x}
+    return {"llm_text": text, "prepared": prepared}
 
 
 def _post_process(llm_text: str, prepared: Dict[str, Any]) -> AnswerPayload:
