@@ -10,15 +10,14 @@
 
 | Time          | Session                                                                 |
 |---------------|-------------------------------------------------------------------------|
-| 09:45 – 10:00 | ⚡ Opening remarks by **Ivan Reznikov**                                  |
-| 10:00 – 10:45 | ⚡ **LangChain in an Hour** with **Pradeep Kumar** (Emirates)            |
-| 10:45 – 11:00 | ☕ Break                                                                |
-| 11:00 – 11:45 | ⚡ **Guardrails AI: Building More Reliable and Safer LLM Applications with Python** with **Shiemaa Adlan** |
-| 11:45 – 12:15 | 🍎 Coffee break                                      |
-| 12:15 – 13:00 | ⚡ **Don't Pay a Big Model to Decide** with **Ahmed Menaa**              |
-| 13:15 – 14:00 | ⚡ **Best Way to Code with LangChain** with **Saeed Anwar**              |
-| 14:00 – 15:00 | 🍕 Pizza time & community sharing                                       |
-| 15:00 – 15:20 | 📞 Organizers: call with Freja (LangChain)                              |
+| 09:45 – 10:00 | ⚡ Opening remarks by **Ivan Reznikov**                       |
+| 10:00 – 10:45 | ⚡ **LangChain in an Hour** with **Pradeep Kumar** (Emirates) |
+| 10:45 – 11:30 | ⚡ **Guardrails AI: Building More Reliable and Safer LLM Applications with Python** with **Shiemaa Adlan** |
+| 11:30 – 12:00 | ☕ Coffee break                                               |
+| 12:00 – 12:45 | ⚡ **Don't Pay a Big Model to Decide** with **Ahmed Menaa**   |
+| 12:45 – 13:30 | ⚡ **Best Way to Code with LangChain** with **Saeed Anwar**   |
+| 13:30 – 15:00 | 🍕 Pizza time & community sharing                             |
+| 15:00 – 15:20 | 📞 Organizers: call with Freja (LangChain)                    |
 
 ---
 
@@ -37,6 +36,6 @@
 ## 📝 Notes
 
 - Speaker organizations are to be confirmed.
-- Final title wording for Saeed Anwar's talk (*in* vs *with* LangChain) and its slot are being aligned with the speaker.
+- Final title wording for Saeed Anwar's talk (*in* vs *with* LangChain) is being aligned with the speaker.
 - Don't forget to upload your slides to `slides/` and your code to `code/` (subfolder with your name) after the session — see [resources/guidelines.md](../../resources/guidelines.md).
 - Pizza + networking at the end 🍕
