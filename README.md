@@ -5,10 +5,11 @@ This space is for sharing **slides, code, and resources** from our community eve
 
 ---
 
-## 📅 Upcoming Events
+## 📅 Events
 
 - **20 September 2025** → [Event Folder](./events/2025-09-20)
 - **27 September 2025** → [Event Folder](./events/2025-09-27)
+- **31 October 2026** → [Event Folder](./events/2026-10-31) · [Luma page](https://luma.com/kdnln3uw)
 
 ---
 
